@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  line-height: 1.2; /*высота шрифта*/
+  letter-spacing: -0, 2em; /*ширина между буквами*/
+  min-width: 360px;
+}
+
+header {
+  background: aqua;
+  height: 80px;
+}
+footer {
+  background: aqua;
+}
+.logo-top {
+  width: 150px;
+  height: auto;
+}
+
+.my-button {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  background: red;
+  /* background-color: transparent; прозрачность */
+  font-weight: 500;
+  font-size: 16px;
+
+  color: white;
+}
+.my-button:hover {
+  color: aqua;
+}
+.button-top:hover {
+  color: white;
+}
+.button-top {
+  color: green;
+  font-size: 24px;
+}
+h1,
+h2,
+.my-button {
+  text-transform: uppercase;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+h1 {
+  font-weight: 700;
+  font-size: 44px;
+  color: rgb(20, 24, 22);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text {
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(3, 3, 3);
+}
+.paragraf {
+  max-width: 350px;
+  text-align: center;
+}
+.history {
+  color: aqua;
+}
+
+.card {
+  background: #ffffff;
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  width: 330px;
+  padding: 46px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; /*для адаптации*/
+  flex-grow: 1; /*для адаптации*/
+}
+.glava {
+  padding-top: 5px;
+}
+.tooded {
+  margin-top: 17px;
+}
+.card-img {
+  margin: 40px 0 36px;
+}
+.active {
+  margin: 90px 0 70px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 0;
+}
+.cards-wrap {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap; /*для адаптации/*
+  /* flex-grow: 1; */
+}
+li {
+  /* list-style: none; */
+}
+
+.footer-top {
+  color: antiquewhite;
+  list-style: none;
+}
+.logo-top-top {
+  list-style: none;
+}
+.my-list {
+  margin-bottom: 10px;
+}
+.list {
+  list-style-type: disc; /* Тип маркеров */
+  padding-left: 20px; /* Отступ слева */
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 567px) {
+  h2 {
+    font-size: 24px;
+  }
+}

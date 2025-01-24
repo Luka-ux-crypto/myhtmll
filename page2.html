@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jäta taotlus</title>
+    <link rel="stylesheet" href="./css/forma.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./HTML/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./HTML/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./HTML/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <section class="contacts">
+      <h2 class="heading"><span>Meie</span> kontakt</h2>
+      <h3 class="heading-top">Telli oma tasuta näidised juba täna!</h3>
+      <div class="row">
+        <div class="img">
+          <img src="contacts-img.png" alt="" />
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="16d3e1bf-80c4-4b88-86f1-3c903bc6e531"
+          />
+          <span>Teie ettevõte</span>
+          <input
+            type="text"
+            name="name"
+            id=""
+            class="box"
+            required
+            placeholder="Enter sõnum..."
+            autocomplete="off"
+          />
+          <span>Sõnum</span>
+          <input
+            type="text"
+            name="name"
+            id=""
+            class="box"
+            required
+            placeholder="Enter Teie ettevõte..."
+            autocomplete="off"
+          />
+
+          <span>Teie meiliaadress</span>
+          <input
+            type="email"
+            name="email"
+            id=""
+            class="box"
+            required
+            placeholder="Enter Teie meiliaadress..."
+            autocomplete="off"
+          />
+          <span>Teie telefoninumber</span>
+          <input
+            type="number"
+            name="number"
+            id=""
+            class="box"
+            required
+            placeholder="Enter Teie telefoninumber..."
+            autocomplete="off"
+          />
+          <!-- <span>Select cources</Select></span>
+          <select name="cources" id="" class="box" required>
+            <option value="" disabled selected>Select cources</option>
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="Java"></option>
+            <option value="PHP"></option>
+            <option value="Python"></option>
+          </select> -->
+          <!-- <span>Select gender</span>
+          <div class="gender">
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="mail">Male</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="femail">feMale</label>
+          </div> -->
+          <input type="submit" value="Saada sõnum" class="btn" name="send" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

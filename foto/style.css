@@ -1,0 +1,39 @@
+.card {
+  width: 18em;
+  width: 100%; /* Изображение растянется на всю ширину */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  display: flex;
+  flex-direction: column;
+  /* display: block; */
+}
+.row {
+  display: flex; /* Включение Flexbox */
+  justify-content: space-between; /* Распределение колонок с равными отступами */
+  gap: 16px;
+}
+.card-text {
+  /* Все колонки одинаковой ширины */
+  padding: 16px; /* Внутренний отступ */
+  background-color: #f4f4f4; /* Фон для примера */
+  border: 1px solid #ccc; /* Граница для визуализации */
+  text-align: center;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Расположение колонок в столбик на мобильных устройствах */
+  }
+}
+.container {
+  /* margin: 25px 10px 25px 10px; */
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-sizing: border-box;
+}
+.card-body {
+  padding: 16px; /* Внутренний отступ */
+  text-align: center;
+  flex-direction: column;
+}
